@@ -69,7 +69,7 @@ public class Jcrud {
     {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/javacrud", "root","shivu047");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/javacrud", "root","********");
         }
         catch (ClassNotFoundException ex)
         {
